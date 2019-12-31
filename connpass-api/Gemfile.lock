@@ -165,6 +165,10 @@ GEM
       unicode-display_width (>= 1.4.0, < 1.7)
     ruby-progressbar (1.10.1)
     ruby_dep (1.5.0)
+    sorbet (0.5.5181)
+      sorbet-static (= 0.5.5181)
+    sorbet-runtime (0.5.5181)
+    sorbet-static (0.5.5181-universal-darwin-14)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -200,6 +204,8 @@ DEPENDENCIES
   rails-controller-testing
   rspec-rails
   rubocop
+  sorbet
+  sorbet-runtime
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
