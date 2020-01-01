@@ -18,7 +18,6 @@
   },
   "lint-staged": {
     "(*.rb|Gemfile)": [
-      "bundle exec srb tc",
       "bundle exec rubocop -DES --safe-auto-correct --force-exclusion --fail-level E",
       "git add"
     ]
