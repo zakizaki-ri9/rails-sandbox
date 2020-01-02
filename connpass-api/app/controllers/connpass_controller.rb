@@ -4,7 +4,7 @@
 class ConnpassController < ApplicationController
   def index
     request = Request::Connpass.new index_params
-    api = Api::Connpass.new request
+    api = ApiClient::Connpass.new request
     api.fetch!
     render json: { content: api.build_response, status: 200 }
   end

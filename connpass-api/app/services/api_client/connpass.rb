@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # typed: true
-module Api
+module ApiClient
   class Connpass
     REQUEST_URL = 'https://connpass.com/api/v1/event/?'
 
