@@ -12,6 +12,6 @@ class ConnpassController < ApplicationController
   private
 
   def index_params
-    params.permit(:event_id, :keyword, :keyword_or, :ym, :ymd, :nickname, :owner_nickname, :series_id, :start, :order, :count, :format)
+    params.permit(:event_id, :keyword, :keyword_or, :ym, :ymd, :nickname, :owner_nickname, :series_id, :start)
   end
 end
