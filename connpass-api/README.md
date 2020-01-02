@@ -1,24 +1,13 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# ConnpassAPIのお試し
 
-Things you may want to cover:
+## 概要
 
-* Ruby version
+- connpassAPIを利用したAPIサーバ
+  - 取得したレスポンスを元に加工して返す
+  - ページング可能とする
+- お気に入り登録した勉強会をDB管理する
 
-* System dependencies
+## 参考資料
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [connpass API リファレンス](https://connpass.com/about/api/)
