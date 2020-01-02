@@ -60,8 +60,8 @@ gem 'sorbet-runtime'
 
 # binding.pry
 group :development, :test do
-  gem "pry-rails"
-  gem "pry-byebug"
+  gem 'pry-byebug'
+  gem 'pry-rails'
 end
 
 # httpclient
@@ -69,3 +69,6 @@ gem 'httpclient'
 
 # solargraph
 gem 'solargraph', group: :development
+
+# enumerize
+gem 'enumerize'
