@@ -12,6 +12,8 @@ module ApiClient
     end
 
     def fetch!
+      return unless request&.valid?
+
       client = HTTPClient.new
       raw_response = client.get(external_url)
       @response = JSON.parse raw_response&.body
