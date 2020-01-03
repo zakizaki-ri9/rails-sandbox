@@ -198,6 +198,8 @@ GEM
     sorbet-runtime (0.5.5181)
     sorbet-static (0.5.5181-universal-darwin-14)
     spring (2.1.0)
+    spring-commands-rspec (1.0.4)
+      spring (>= 0.9.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
       spring (>= 1.2, < 3.0)
@@ -242,6 +244,7 @@ DEPENDENCIES
   sorbet
   sorbet-runtime
   spring
+  spring-commands-rspec
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
   tzinfo-data
